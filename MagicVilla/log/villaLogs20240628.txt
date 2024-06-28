@@ -1,0 +1,92 @@
+2024-06-28 12:59:01.630 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-06-28 12:59:01.757 +05:30 [DBG] Hosting starting
+2024-06-28 12:59:02.305 +05:30 [INF] Now listening on: https://localhost:7289
+2024-06-28 12:59:02.305 +05:30 [INF] Now listening on: http://localhost:5002
+2024-06-28 12:59:02.305 +05:30 [DBG] Loaded hosting startup assembly MagicVilla
+2024-06-28 12:59:02.305 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-06-28 12:59:02.305 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-06-28 12:59:02.305 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-28 12:59:02.305 +05:30 [INF] Hosting environment: Development
+2024-06-28 12:59:02.305 +05:30 [INF] Content root path: D:\ASPNET\repos\MagicVilla\MagicVilla
+2024-06-28 12:59:02.305 +05:30 [DBG] Hosting started
+2024-06-28 12:59:02.416 +05:30 [DBG] Connection id "0HN4N8FTU0QLA" accepted.
+2024-06-28 12:59:02.417 +05:30 [DBG] Connection id "0HN4N8FTU0QLA" started.
+2024-06-28 12:59:02.451 +05:30 [DBG] Connection id "0HN4N8FTU0QLA" received FIN.
+2024-06-28 12:59:02.463 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-06-28 12:59:02.618 +05:30 [DBG] Connection id "0HN4N8FTU0QLA" stopped.
+2024-06-28 12:59:02.622 +05:30 [DBG] Connection id "0HN4N8FTU0QLA" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-06-28 12:59:03.115 +05:30 [DBG] Connection id "0HN4N8FTU0QLB" accepted.
+2024-06-28 12:59:03.115 +05:30 [DBG] Connection id "0HN4N8FTU0QLB" started.
+2024-06-28 12:59:03.168 +05:30 [DBG] Connection 0HN4N8FTU0QLB established using the following protocol: "Tls12"
+2024-06-28 12:59:03.409 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/index.html - null null
+2024-06-28 12:59:03.409 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger - null null
+2024-06-28 12:59:03.629 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-06-28 12:59:03.629 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-06-28 12:59:03.650 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-06-28 12:59:03.650 +05:30 [DBG] No candidates found for the request path '/swagger'
+2024-06-28 12:59:03.651 +05:30 [DBG] Request did not match any endpoints
+2024-06-28 12:59:03.651 +05:30 [DBG] Request did not match any endpoints
+2024-06-28 12:59:03.672 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger - 499 null null 264.9755ms
+2024-06-28 12:59:03.770 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-06-28 12:59:03.771 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-06-28 12:59:03.788 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2024-06-28 12:59:03.788 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2024-06-28 12:59:03.788 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/index.html - 200 null text/html;charset=utf-8 381.4328ms
+2024-06-28 12:59:03.844 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7289/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-28 12:59:03.856 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7289/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 12.3289ms
+2024-06-28 12:59:03.860 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7289/_vs/browserLink - null null
+2024-06-28 12:59:04.025 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7289/_vs/browserLink - 200 null text/javascript; charset=UTF-8 165.3851ms
+2024-06-28 12:59:04.030 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/favicon-16x16.png - null null
+2024-06-28 12:59:04.030 +05:30 [DBG] No candidates found for the request path '/swagger/favicon-16x16.png'
+2024-06-28 12:59:04.030 +05:30 [DBG] Request did not match any endpoints
+2024-06-28 12:59:04.046 +05:30 [DBG] The file transmission was cancelled
+System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Threading.CancellationToken.ThrowIfCancellationRequested()
+   at Microsoft.AspNetCore.Http.StreamCopyOperationInternal.CopyToAsync(Stream source, Stream destination, Nullable`1 count, Int32 bufferSize, CancellationToken cancel)
+   at Microsoft.AspNetCore.Http.SendFileResponseExtensions.SendFileAsyncCore(HttpResponse response, IFileInfo file, Int64 offset, Nullable`1 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.SendFileResponseExtensions.SendFileAsyncCore(HttpResponse response, IFileInfo file, Int64 offset, Nullable`1 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileContext.SendAsync()
+2024-06-28 12:59:04.049 +05:30 [INF] Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2024-06-28 12:59:04.049 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/favicon-16x16.png - 499 665 image/png 19.2565ms
+2024-06-28 12:59:04.089 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - null null
+2024-06-28 12:59:04.090 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-06-28 12:59:04.090 +05:30 [DBG] Request did not match any endpoints
+2024-06-28 12:59:04.302 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7289/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 212.865ms
+2024-06-28 12:59:09.237 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7289/api/Villas - null null
+2024-06-28 12:59:09.240 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Villas'
+2024-06-28 12:59:09.242 +05:30 [DBG] Endpoint 'MagicVilla.Controllers.VillasController.GetVillas (MagicVilla)' with route pattern 'api/Villas' is valid for the request path '/api/Villas'
+2024-06-28 12:59:09.243 +05:30 [DBG] Request matched endpoint 'MagicVilla.Controllers.VillasController.GetVillas (MagicVilla)'
+2024-06-28 12:59:09.244 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-06-28 12:59:09.245 +05:30 [INF] Executing endpoint 'MagicVilla.Controllers.VillasController.GetVillas (MagicVilla)'
+2024-06-28 12:59:09.259 +05:30 [INF] Route matched with {action = "GetVillas", controller = "Villas"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[MagicVilla.Data.Dto.VillaDTO]] GetVillas() on controller MagicVilla.Controllers.VillasController (MagicVilla).
+2024-06-28 12:59:09.260 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-06-28 12:59:09.260 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-06-28 12:59:09.261 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-06-28 12:59:09.261 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-06-28 12:59:09.261 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-06-28 12:59:09.262 +05:30 [DBG] Executing controller factory for controller MagicVilla.Controllers.VillasController (MagicVilla)
+2024-06-28 12:59:09.266 +05:30 [INF] Executed action MagicVilla.Controllers.VillasController.GetVillas (MagicVilla) in 3.0617ms
+2024-06-28 12:59:09.267 +05:30 [INF] Executed endpoint 'MagicVilla.Controllers.VillasController.GetVillas (MagicVilla)'
+2024-06-28 12:59:09.268 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'MagicVilla.Logging.ILogging' while attempting to activate 'MagicVilla.Controllers.VillasController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method3(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-06-28 12:59:09.272 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7289/api/Villas - 500 null text/plain; charset=utf-8 35.6114ms
